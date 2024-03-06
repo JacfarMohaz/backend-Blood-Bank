@@ -24,7 +24,7 @@ app.use(sendEmailRouter)
 
 
 // connection database
-mongoose.connect("mongodb://localhost:27017/BloodBank").then(() => {
+mongoose.connect("mongodb+srv://jacfarmahamed77:R7GbN54A9Tm5VD00@backend-blood-bank.j1ipmbr.mongodb.net/?retryWrites=true&w=majority&appName=backend-blood-bank").then(() => {
     console.log("Database has ben connected")
 }).catch((error) => console.log(error))
 
